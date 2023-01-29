@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta property="og:image" content="img/meta.png" />
+  <title>Wonder Print. Печать на футболках, кепках, сумках, чашках</title>
+  <link rel="icon" type="image/png" href="img/logoWP.png" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="font/stylesheet.css">
+  <link rel="stylesheet" href="css/slider.css">
+  <link rel="stylesheet" href="css/popup.css">
+  <link rel="stylesheet" href="css/mod.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <!-- Попап к кнопкам РАССЧИТАТЬ СТОИМОСТЬ -->
+    <div class="col-md-4 col-xs-12 b-popup" id="popup1">
+      <div й class="pricepop lux b-popup-content">
+        <div class="popup_content_button">
+          <a href="javascript:PopUpHide()" class="exit"><img src="img/popup/exit.png" alt=""></a>
+
+          <div class="popup_tittle">
+            <p>Каким мессенджером пользуетесь?</p>
+          </div>
+          <div class="social_popup">
+            <a href="viber://pa?context=ZGw6MTMxNzQ&chatURI=wonderprint"><img src="img/popup/viber.png" alt="">
+              <p>Viber</p>
+            </a>
+            <a href="tg://resolve?start=ZGw6MTMxNzQ&domain=wonderprint_bot"><img src="img/popup/telegram.png" alt="">
+              <p>Telegram</p>
+            </a>
+
+          </div>
+          <a href="javascript:PopUpShow7()" class="no_mes">Нет мессенджера</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Попап к кнопкам Заказать за 60 секунд -->
+    <div class="col-md-4 col-xs-12 b-popup" id="popup2">
+      <div й class="pricepop lux b-popup-content">
+        <div class="popup_content_button">
+          <a href="javascript:PopUpHide2()" class="exit"><img src="img/popup/exit.png" alt=""></a>
+
+          <div class="popup_tittle">
+            <p>Каким мессенджером пользуетесь?</p>
+          </div>
+          <div class="social_popup">
+            <a href="viber://pa?context=ZGw6MTMxNzQ&chatURI=wonderprint"><img src="img/popup/viber.png" alt="">
+              <p>Viber</p>
+            </a>
+            <a href="tg://resolve?start=ZGw6MTMxNzQ&domain=wonderprint_bot"><img src="img/popup/telegram.png" alt="">
+              <p>Telegram</p>
+            </a>
+
+          </div>
+          <a href="javascript:PopUpShow12()" class="no_mes">Нет мессенджера</a>
+        </div>
+      </div>
+    </div>
+    <!-- Попап к кнопкам Составить макет -->
+    <div class="col-md-4 col-xs-12 b-popup" id="popup3">
+      <div й class="pricepop lux b-popup-content">
+        <div class="popup_content_button">
+          <a href="javascript:PopUpHide3()" class="exit"><img src="img/popup/exit.png" alt=""></a>
+
+          <div class="popup_tittle">
+            <p>Каким мессенджером пользуетесь?</p>
+          </div>
+          <div class="social_popup">
+            <a href="viber://pa?context=ZGw6MTMxNzU&chatURI=wonderprint"><img src="img/popup/viber.png" alt="">
+              <p>Viber</p>
+            </a>
+            <a href="tg://resolve?start=ZGw6MTMxNzU&domain=wonderprint_bot"><img src="img/popup/telegram.png" alt="">
+              <p>Telegram</p>
+            </a>
+
+          </div>
+          <a href="javascript:PopUpShow12()" class="no_mes">Нет мессенджера</a>
+        </div>
+      </div>
+    </div>
+    <!-- Попап к кнопкам Получить консультацию -->
+    <div class="col-md-4 col-xs-12 b-popup" id="popup4">
+      <div й class="pricepop lux b-popup-content">
+        <div class="popup_content_button">
+          <a href="javascript:PopUpHide4()" class="exit"><img src="img/popup/exit.png" alt=""></a>
+
+          <div class="popup_tittle">
+            <p>Каким мессенджером пользуетесь?</p>
+          </div>
+          <div class="social_popup">
+            <a href="viber://pa?context=ZGw6MTMxNzM&chatURI=wonderprint"><img src="img/popup/viber.png" alt="">
+              <p>Viber</p>
+            </a>
+            <a href="tg://resolve?start=ZGw6MTMxNzM&domain=wonderprint_bot"><img src="img/popup/telegram.png" alt="">
+              <p>Telegram</p>
+            </a>
+
+          </div>
+          <a href="javascript:PopUpShow8()" class="no_mes">Нет мессенджера</a>
+        </div>
+      </div>
+    </div>
+    <!-- Попап к кнопкам Узнать секреты -->
+    <div class="col-md-4 col-xs-12 b-popup" id="popup5">
+      <div й class="pricepop lux b-popup-content">
+        <div class="popup_content_button">
+          <a href="javascript:PopUpHide5()" class="exit"><img src="img/popup/exit.png" alt=""></a>
+
+          <div class="popup_tittle">
+            <p>Каким мессенджером пользуетесь?</p>
+          </div>
+          <div class="social_popup">
+            <a href="viber://pa?context=ZGw6MTMxNzY&chatURI=wonderprint"><img src="img/popup/viber.png" alt="">
+              <p>Viber</p>
+            </a>
+            <a href="tg://resolve?start=ZGw6MTMxNzY&domain=wonderprint_bot"><img src="img/popup/telegram.png" alt="">
+              <p>Telegram</p>
+            </a>
+
+          </div>
+          <a href="javascript:PopUpShow8()" class="no_mes" style="display: none">Нет мессенджера</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Попап к кнопкам Задать вопрос -->
+    <div class="col-md-4 col-xs-12 b-popup" id="popup6">
+      <div й class="pricepop lux b-popup-content">
+        <div class="popup_content_button">
+          <a href="javascript:PopUpHide6()" class="exit"><img src="img/popup/exit.png" alt=""></a>
+
+          <div class="popup_tittle">
+            <p>Каким мессенджером пользуетесь?</p>
+          </div>
+          <div class="social_popup">
+            <a href="viber://pa?context=ZGw6MTMxNzM&chatURI=wonderprint"><img src="img/popup/viber.png" alt="">
+              <p>Viber</p>
+            </a>
+            <a href="tg://resolve?start=ZGw6MTMxNzM&domain=wonderprint_bot"><img src="img/popup/telegram.png" alt="">
+              <p>Telegram</p>
+            </a>
+
+          </div>
+          <a href="javascript:PopUpShow8()" class="no_mes">Нет мессенджера</a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Попап с формой -->
+    <div class="col-md-4 col-xs-12 b-popup" id="popup7">
+      <div й class="pricepop lux b-popup-content">
+        <div class="popup_content_form">
+          <a href="javascript:PopUpHide7()" class="exit"><img src="img/popup/exit.png" alt=""></a>
+
+          <p class="popup_content_form_tittle">Заполните простую форму</p>
+          <p class="popup_content_form_tittle2">Менеджер сообщит точную стоимость в течение 15 минут</p>
+          <form method="post" class="form-fields-block" id="form1" enctype="multipart/form-data">
+            <p>На чем печатаем?</p>
+            <select name="f[selector1]">
+              <option value="Футболки">Футболки</option>
+              <option value="Поло">Поло</option>
+              <option value="Худи">Худи</option>
+              <option value="Свитшоты">Свитшоты</option>
+              <option value="Чашки">Чашки</option>
+              <option value="Термостаканы">Термостаканы</option>
+              <option value="Экосумки">Экосумки</option>
+              <option value="Ручки">Ручки</option>
+              <option value="Другое">Другое</option>
+              <option value="Комплексный заказ">Комплексный заказ</option>
+            </select>
+            <p>Какой тираж?</p>
+            <select name="f[selector2]">
+
+              <option value="до 10 шт">до 10 шт</option>
+              <option value="от 10 до 50 шт">от 10 до 50 шт</option>
+              <option value="больше 50 шт">больше 50 шт</option>
+            </select>
+
+            <input type="file" name="file" multiple id="field__file-2" class="field field__file" checked>
+
+            <label class="field__file-wrapper" for="field__file-2">
+              <div class="field__file-fake">Прикрепить рисунок</div>
+              <div class="field__file-button"></div>
+            </label>
+
+            <script>
+              let fields = document.querySelectorAll('.field__file');
+              Array.prototype.forEach.call(fields, function(input) {
+                let label = input.nextElementSibling,
+                  labelVal = label.querySelector('.field__file-fake').innerText;
+
+                input.addEventListener('change', function(e) {
+                  let countFiles = '';
+                  if (this.files && this.files.length >= 1)
+                    countFiles = this.files.length;
+
+                  if (countFiles)
+                    label.querySelector('.field__file-fake').innerText = 'Выбрано файлов: ' + countFiles;
+                  else
+                    label.querySelector('.field__file-fake').innerText = labelVal;
+                });
+              });
+            </script>
+            <input type="text" value="" placeholder="Ваше имя" name="f[name]" required>
+            <input type=" text" value="" placeholder="Номер телефона" name="f[telephone]" required>
+            <div id="message_form1"></div>
+            <input id="subs_btn" class="submit" type="submit" value="Рассчитать стоимость" style="margin-bottom:0px;" name="">
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Попап с формой -->
+    <div class="col-md-4 col-xs-12 b-popup" id="popup8">
+      <div й class="pricepop lux b-popup-content">
+        <div class="popup_content_form">
+          <a href="javascript:PopUpHide8()" class="exit"><img src="img/popup/exit.png" alt=""></a>
+          <p class="popup_content_form_tittle">Заполните простую форму</p>
+          <p class="popup_content_form_tittle2">Менеджер сообщит точную стоимость в течение 15 минут</p>
+          <form method="post" class="form-fields-block" id="form2" enctype="multipart/form-data">
+            <input type="text" value="" placeholder="Ваше имя" name="f[name]" required>
+            <input type=" text" value="" placeholder="Номер телефона" name="f[telephone]" required>
+            <input type=" text" value="" placeholder="Задайте свой вопрос" name="f[question]" required>
+            <div id="message_form2"></div>
+            <input id="subs_btn" class="submit" type="submit" value="Рассчитать стоимость" style="margin-bottom:0px;" name="">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-xs-12 b-popup" id="popup9">
+      <div й class="pricepop lux b-popup-content">
+        <div class="popup_content_form">
+          <a href="javascript:PopUpHide9()" class="exit"><img src="img/popup/exit.png" alt=""></a>
+          <p class="popup_content_form_tittle">Наш менеджер с вами свяжется</p>
+          <p class="popup_content_form_tittle2">Спасибо что вы с нами :)</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Форма заказать, составить макет -->
+    <div class="col-md-4 col-xs-12 b-popup" id="popup12">
+      <div class="pricepop lux b-popup-content">
+        <div class="popup_content_form">
+          <a href="javascript:PopUpHide12()" class="exit"><img src="img/popup/exit.png" alt=""></a>
+
+          <p class="popup_content_form_tittle">Заполните простую форму</p>
+          <p class="popup_content_form_tittle2">Менеджер перезвонит в течение 15 минут, чтобы уточнить детали</p>
+          <form class="" id="form" name="form1" enctype="multipart/form-data" method="post" onsubmit="send(event, 'mail1.php')">
+            <p>На чем печатаем?</p>
+            <select name="f[selector1]">
+              <option value="Футболки">Футболки</option>
+              <option value="Поло">Поло</option>
+              <option value="Худи">Худи</option>
+              <option value="Свитшоты">Свитшоты</option>
+              <option value="Чашки">Чашки</option>
+              <option value="Термостаканы">Термостаканы</option>
+              <option value="Экосумки">Экосумки</option>
+              <option value="Ручки">Ручки</option>
+              <option value="Другое">Другое</option>
+              <option value="Комплексный заказ">Комплексный заказ</option>
+            </select>
+            <p>Какой тираж?</p>
+            <select name="f[selector2]">
+
+              <option value="до 10 шт">до 10 шт</option>
+              <option value="от 10 до 50 шт">от 10 до 50 шт</option>
+              <option value="больше 50 шт">больше 50 шт</option>
+            </select>
+            <div class="field__wrapper">
+
+              <input type="file" name="myfile[]" multiple id="field__file-2" class="field field__file" checked>
+
+              <label class="field__file-wrapper" for="field__file-2">
+                <div class="field__file-fake">Прикрепить рисунок</div>
+                <div class="field__file-button"></div>
+              </label>
+
+            </div>
+            <script>
+              let fields = document.querySelectorAll('.field__file');
+              Array.prototype.forEach.call(fields, function(input) {
+                let label = input.nextElementSibling,
+                  labelVal = label.querySelector('.field__file-fake').innerText;
+
+                input.addEventListener('change', function(e) {
+                  let countFiles = '';
+                  if (this.files && this.files.length >= 1)
+                    countFiles = this.files.length;
+
+                  if (countFiles)
+                    label.querySelector('.field__file-fake').innerText = 'Выбрано файлов: ' + countFiles;
+                  else
+                    label.querySelector('.field__file-fake').innerText = labelVal;
+                });
+              });
+            </script>
+            <input type="text" value="" placeholder="Ваше имя" name="f[name]" required>
+            <input type=" text" value="" placeholder="Номер телефона" name="f[telephone]" required>
+            <input id="subs_btn" class="submit" type="submit" value="Составить макет" style="margin-bottom:0px;" name="">
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <script>
+      $(document).ready(function() {
+
+      });
+
+      function PopUpShow() {
+        $("#popup1").css('display', 'flex');
+      }
+
+      function PopUpHide() {
+        $("#popup1").hide();
+      }
+
+      function PopUpShow2() {
+        $("#popup2").css('display', 'flex');
+      }
+
+      function PopUpHide2() {
+        $("#popup2").hide();
+      }
+
+      function PopUpShow3() {
+        $("#popup3").css('display', 'flex');
+      }
+
+      function PopUpHide3() {
+        $("#popup3").hide();
+      }
+
+      function PopUpShow4() {
+        $("#popup4").css('display', 'flex');
+      }
+
+      function PopUpHide4() {
+        $("#popup4").hide();
+      }
+
+      function PopUpShow5() {
+        $("#popup5").css('display', 'flex');
+      }
+
+      function PopUpHide5() {
+        $("#popup5").hide();
+      }
+
+      function PopUpShow6() {
+        $("#popup6").css('display', 'flex');
+      }
+
+      function PopUpHide6() {
+        $("#popup6").hide();
+      }
+
+      function PopUpShow12() {
+        $("#popup12").css('display', 'flex');
+        $("#popup2").css('display', 'none');
+      }
+
+      function PopUpHide12() {
+        $("#popup12").hide();
+      }
+
+      function PopUpShow7() {
+        $("#popup7").css('display', 'flex');
+        $("#popup5").css('display', 'none');
+        $("#popup4").css('display', 'none');
+        $("#popup3").css('display', 'none');
+        $("#popup2").css('display', 'none');
+        $("#popup1").css('display', 'none');
+
+      }
+
+      function PopUpHide7() {
+        $("#popup7").hide();
+      }
+
+      function PopUpShow8() {
+        $("#popup8").css('display', 'flex');
+        $("#popup6").css('display', 'none');
+
+      }
+
+      function PopUpHide8() {
+        $("#popup8").hide();
+      }
+
+      function PopUpShow9() {
+        $("#popup9").css('display', 'flex');
+      }
+
+      function PopUpHide9() {
+        $("#popup9").hide();
+      }
+    </script>
+
+
+
+
+
+    <div class="block1_fon">
+      <div class="block1_content">
+        <div class="block1_content_header">
+          <div class="logo">
+            <img src="img/Logo.png" alt="">
+          </div>
+          <div class="social">
+            <a href="tg://resolve?start=ZGw6MTMxNzM&domain=wonderprint_bot"> <img src="img/telegram.png" alt=""></a>
+            <a href="https://www.instagram.com/wonderprint.com.ua/?hl=ru" target="_blank"><img src="img/instagram.png" alt=""></a>
+            <a href="viber://pa?context=ZGw6MTMxNzM&chatURI=wonderprint"><img src="img/viber.png" alt=""></a>
+          </div>
+          <div class="phone">
+            <img src="img/telephone.png" alt="">
+            <div class="">
+              <a href="tel:0977109092">097 710 90 92
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="block1_content_center">
+          <h1>
+            Печать на футболках, кепках, сумках, чашках
+          </h1>
+          <img src="img/item_cloth.png" alt="" class="item_cloth_mobile">
+
+          <p>Закажи за 60 секунд,</p>
+          <p><span>получи максимум за</span> 2 рабочих дня!</p>
+          <div class="block1_content_center_line">
+            <p>Не успеем напечатать в срок -</p>
+            <p>скидка <span>50%</span></p>
+          </div>
+          <div class="block1_content_center_button">
+            <a href="javascript:PopUpShow()">Рассчитать стоимость</a>
+            <a href="javascript:PopUpShow2()">Заказать за 60 секунд</a>
+          </div>
+          <img src="img/item_cloth.png" alt="" class="item_cloth">
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="content">
+    <div class="block2">
+      <div class="block2_mobile_button">
+        <a href="javascript:PopUpShow()">Рассчитать стоимость</a>
+
+      </div>
+      <div class="block2_ChatBot">
+
+        <img src="img/block2_phone.png" alt="" class="block2_telephone">
+      </div>
+
+      <div class="block2_info">
+        <p>Узнайте стоимость заказа в чат-боте за <span>60 секунд</span></p>
+        <p>Без ожидания и очередей, не сообщая контактных данных</p>
+        <a href="javascript:PopUpShow()">Рассчитать стоимость</a>
+      </div>
+
+    </div>
+    <div class="block3">
+      <div class="block3_content">
+        <p class="block3_content_tittle"><span>Wonder Print</span> с радостью воплотит в жизнь ваш творческий каприз</p>
+        <div class="sliderKolya">
+          <div class="slider">
+            <div class="slider__wrapper">
+              <div class="slider__item">
+                <div style="">
+
+                  <img src="img/block3/slider/slide1.jpg" alt="">
+                  <p>Печать на футболках </p>
+                </div>
+              </div>
+
+              <div class="slider__item">
+                <div style="">
+                  <img src="img/block3/slider/slide3.jpg" alt="">
+                  <p>Печать на толстовках, ветровках, жилетах, свитшотах</p>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div style="">
+
+                  <img src="img/block3/slider/slide4.jpg" alt="">
+                  <p>Печать на спецодежде</p>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div style="">
+                  <img src="img/block3/slider/slide5.png" alt="">
+                  <p>Печать на промо и эко сумках</p>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div style="">
+                  <img src="img/block3/slider/slide6.jpg" alt="">
+                  <p>Печать на кепках и снепбеках
+                  </p>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div style="">
+                  <img src="img/block3/slider/slide7.jpg" alt="">
+                  <p>Печать на зонтах</p>
+                </div>
+              </div>
+
+              <div class="slider__item">
+                <div style="">
+                  <img src="img/block3/slider/slide9.jpg" alt="">
+                  <p>Лазерная резка и гравировка
+                  </p>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div style="">
+                  <img src="img/block3/slider/slide11.jpg" alt="">
+                  <p>Корпоративные заказы
+                  </p>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div style="">
+
+                  <img src="img/block3/slider/slide12.jpg" alt="">
+                  <p>Производство рекламно-сувенирной продукции </p>
+                </div>
+              </div>
+
+              <div class="slider__item">
+                <div style="">
+                  <img src="img/block3/slider/slide13.jpg" alt="">
+                  <p>УФ печать</p>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div style="">
+
+                  <img src="img/block3/slider/slide14.jpg" alt="">
+                  <p>УФ печать</p>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div style="">
+                  <img src="img/block3/slider/slide15.jpg" alt="">
+                  <p>УФ печать</p>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div style="">
+                  <img src="img/block3/slider/slide16.jpg" alt="">
+                  <p>УФ печать
+                  </p>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div style="">
+                  <img src="img/block3/slider/slide17.jpg" alt="">
+                  <p>УФ печать</p>
+                </div>
+              </div>
+
+              <div class="slider__item">
+                <div style="">
+                  <img src="img/block3/slider/slide18.jpg" alt="">
+                  <p>УФ печать
+                  </p>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div style="">
+                  <img src="img/block3/slider/slide19.jpg" alt="">
+                  <p>Производство рекламно-сувенирной продукции
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <a class="slider__control slider__control_left" href="#" role="button"></a>
+          <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+        </div>
+        <a href="javascript:PopUpShow()" class="block3_button">Рассчитать стоимость</a>
+      </div>
+    </div>
+    <div class="block4">
+      <div class="block4_content">
+        <p>Посмотрите макет изделия, </p>
+        <p>перед тем как заказать!</p>
+        <p>Наши дизайнеры все сделают за 15 минут, с готовым изображением </p>
+        <div class="block4_content_card">
+          <div class="block4_content_card_item">
+            <img src="img/block4/item1.png" alt="">
+            <img src="img/block4/arrow.png" alt="">
+            <p>Выбери!</p>
+          </div>
+          <div class="block4_content_card_item">
+            <img src="img/block4/item2.png" alt="">
+            <img src="img/block4/arrow.png" alt="">
+            <p>Создай!</p>
+          </div>
+          <div class="block4_content_card_item">
+            <img src="img/block4/item3.png" alt="">
+            <p>Получи!</p>
+          </div>
+        </div>
+        <a href="javascript:PopUpShow3()" class="block4_content_button">Составить макет</a>
+      </div>
+    </div>
+    <div class="block5">
+      <div class="block5_content">
+        <p class="block5_content_tittle">Уже 12 лет вы выбираете <span>Wonder Print</span></p>
+        <div class="block5_content_cart">
+          <div class="block5_content_cart_itemLeft">
+            <div class="image">
+              <img src="img/block5/image1.png" alt="">
+            </div>
+            <div class="info">
+              <p>Собственное производство</p>
+              <p>Мы работаем без посредников, поэтому все заказы выдаём в четко указанные сроки.
+                Используем
+                профессиональное оборудование для печати и
+                материалы премиум-класса. </p>
+
+              <p><span class="green_text">Принты от Wonder Print не трескаются и не теряют яркость даже после стирки в стиральной машине! </span>
+              </p>
+            </div>
+          </div>
+          <div class="block5_content_cart_itemRight">
+            <div class="image">
+              <img src="img/block5/image2.png" alt="">
+            </div>
+            <div class="info">
+              <p>Опытная и надежная команда</p>
+              <p>За 12 лет мы собрали не просто хороших сотрудников - а лучших из лучших волшебников креатива и повелителей оборудования!</p>
+              <p><span class="green_text">Вы можете быть уверены - заказ будет выполнен в срок и на</span><span class="heavy"> 100% соответствовать макету.</span></p>
+              <p><span class="green_text">Если нужна профессиональная консультация - обращайтесь в Wonder Print, с радостью ответим на все ваши вопросы.</span></p>
+              <a href="javascript:PopUpShow4()">Получить консультацию</a>
+            </div>
+          </div>
+          <div class="block5_content_cart_itemLeft">
+            <div class="image">
+              <img src="img/block5/image3.png" alt="">
+            </div>
+            <div class="info">
+              <p>Удобное расположение</p>
+              <p>Это часто отмечают наши клиенты: «К вам очень удобно добираться!» Офис WonderPrint расположен практически в центре Киева, 3 минуты от метро. </p>
+              <p><span class="green_text">Вы можете забрать заказ, не теряя несколько часов, добираясь на окраину - или воспользоваться почтой.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="block6">
+      <div class="block6_content">
+        <img src="img/block6/instagram.png" alt="" class="block6_instagram">
+        <div class="sliderKolya2">
+
+          <div class="slider2">
+            <div class="slider__wrapper2">
+              <div class="slider__item2">
+                <div style="">
+
+                  <img src="img/block6/p1.jpg" alt="">
+                </div>
+              </div>
+              <div class="slider__item2">
+                <div style="">
+                  <img src="img/block6/p2.jpg" alt="">
+                </div>
+              </div>
+              <div class="slider__item2">
+                <div style="">
+                  <img src="img/block6/p3.jpg" alt="">
+                </div>
+              </div>
+              <div class="slider__item2">
+                <div style="">
+
+                  <img src="img/block6/p4.jpg" alt="">
+                </div>
+              </div>
+              <div class="slider__item2">
+                <div style="">
+                  <img src="img/block6/p5.jpg" alt="">
+                </div>
+              </div>
+              <div class="slider__item2">
+                <div style="">
+                  <img src="img/block6/p6.jpg" alt="">
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a class="slider__control2 slider__control_left2" href="#" role="button"></a>
+          <a class="slider__control2 slider__control_right2 slider__control_show2" href="#" role="button"></a>
+        </div>
+        <div class="block6_pdf">
+          <div class="block6_pdf_left">
+            <p>Как правильно разместить рисунок?</p>
+            <p>Очень часто заказчик не знает, с какими отступами и в каком размере лучше всего разместить логотип
+              или риссунок на изделии.</p>
+            <p>Мы подготовили мини-инструкцию в PDF:</p>
+            <p>«Как разместить рисунок для печати на текстиле»</p>
+            <p>Если нет опыта заказов подобной продукции - обязательно прочтите!</p>
+            <a href="javascript:PopUpShow5()">Узнать секреты</a>
+          </div>
+          <div class="block6_pdf_right">
+            <img src="img/block6/book.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="block7">
+      <div class="block7_content">
+        <p class="block7_content_tittle">Заказать печать проще,</p>
+        <p class="block7_content_tittle">чем добраться по пробкам на работу</p>
+        <div class="block7_content_card">
+          <div class="block7_content_card_item">
+            <img src="img/block7/price1.png" alt="">
+            <img src="img/block7/arrow.png" alt="">
+          </div>
+          <div class="block7_content_card_item">
+            <img src="img/block7/price2.png" alt="">
+            <img src="img/block7/arrow.png" alt="">
+          </div>
+          <div class="block7_content_card_item">
+            <img src="img/block7/price3.png" alt="">
+            <img src="img/block7/arrow.png" alt="">
+          </div>
+          <div class="block7_content_card_item">
+            <img src="img/block7/price4.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="block8">
+      <div class="block8_content">
+        <div class="block8_info">
+          <div class="block8_info_left">
+            <p>А вы уже знаете..</p>
+            <div class="block8_info_left_check">
+              <img src="img/block8/checked.png" alt="">
+              <p>Какой тип печати лучше выбрать?</p>
+            </div>
+            <div class="block8_info_left_check">
+              <img src="img/block8/checked.png" alt="">
+              <p>Как разместить логотип?</p>
+            </div>
+            <div class="block8_info_left_check">
+              <img src="img/block8/checked.png" alt="">
+              <p>Какой тираж заказать, чтобы максимально сэкономить?</p>
+            </div>
+            <p>Есть куча нюансов, которые мы с радостью обьясним -</p>
+            <p>чтобы вы были максимально довольны работой!</p>
+            <p>Обращайтесь за консультацией и вместе мы сделаем все идеально и быстро.</p>
+            <a href="javascript:PopUpShow6()">Задать вопрос</a>
+          </div>
+          <div class="block8_info_right">
+            <img src="img/block8/men.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="block9">
+        <div class="block9_content">
+          <div class="block9_content_left">
+            <p class="block9_content_left_tittle">Всегда вам рады!</p>
+            <div class="address">
+              <img src="img/block9/marker.png" alt="">
+              <p>Киев, ул. Довженко 3 (м. Шулявская) </p>
+            </div>
+            <div class="phone">
+              <div class="phone_item">
+                <img src="img/telephone.png" alt="">
+                <a href="tel:0977109092">097 710 90 92
+              </div>
+            </div>
+            <div class="social">
+              <a href="tg://resolve?start=ZGw6MTMxNzM&domain=wonderprint_bot"> <img src="img/telegram.png" alt=""></a>
+              <a href="https://www.instagram.com/wonderprint.com.ua/?hl=ru" target="_blank"><img src="img/instagram.png" alt=""></a>
+              <a href="viber://pa?context=ZGw6MTMxNzM&chatURI=wonderprint"><img src="img/viber.png" alt=""></a>
+            </div>
+            <p class="developer">©2020. Wonder Print. Все права защищены.
+              <br> <a href="https://tkachuk.pro" target="_blank"><img src="img/block9/sign.png" alt="" class="signa"></a></p>
+          </div>
+          <div class="block9_content_right">
+            <div class="mapouter">
+              <div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=%D0%9A%D0%B8%D0%B5%D0%B2%2C%20%D1%83%D0%BB.%20%D0%94%D0%BE%D0%B2%D0%B6%D0%B5%D0%BD%D0%BA%D0%BE%203&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net"></a></div>
+              <style>
+                .mapouter {
+                  position: relative;
+                  text-align: right;
+
+                }
+
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+
+                }
+              </style>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</body>
+<script src="js/slider1.js"></script>
+<script src="js/slider2.js"></script>
+<script type="send/mail1.js"></script>
+<script type="text/javascript">
+  $.ajaxSetup({
+    url: 'mail1.php', // путь к php-обработчику
+    type: 'POST', // метод передачи данных
+    dataType: 'json', // тип ожидаемых данных в ответе
+    beforeSend: function() { // Функция вызывается перед отправкой запроса
+      console.log('Запрос отправлен. Ждите ответа.');
+      // тут можно, к примеру, начинать показ прелоадера, в общем, на ваше усмотрение
+    },
+    error: function(req, text, error) { // отслеживание ошибок во время выполнения ajax-запроса
+      console.error('Упс! Ошибочка: ' + text + ' | ' + error);
+    },
+    complete: function() { // функция вызывается по окончании запроса
+      console.log('Запрос полностью завершен!');
+
+      // тут завершаем показ прелоадера, если вы его показывали
+    }
+  });
+
+  $('form').on('submit', function(e) {
+    var formID = $(this).attr('id'); // Получение ID формы
+    e.preventDefault();
+    var $that = $(this),
+      formData = new FormData($that.get(0)); // создаем новый экземпляр объекта и передаем ему нашу форму (*)
+
+    var butt_text = $('#' + formID + ' button').text();
+    $('#' + formID + ' button').prop('disabled', true);
+    $('#' + formID + ' button').text('Отправка...');
+
+    $('#message_' + formID).slideUp(750, function() {
+      $('#message_' + formID).hide();
+      $.ajax({
+        contentType: false, // важно - убираем форматирование данных по умолчанию
+        processData: false, // важно - убираем преобразование строк по умолчанию
+        data: formData,
+        success: function(json) {
+          if (json) {
+            $('#message_' + formID).html(json);
+            $('#message_' + formID).slideDown('slow');
+            var jsontext = $(json).text();
+            PopUpHide7();
+            PopUpHide8();
+            PopUpShow9();
+            if (jsontext == 'Ваш запрос успешно отправлен!') {
+              ga("send", "event", formID, "get");
+
+              setTimeout(function() {
+                $('#' + formID + ' button').prop('disabled', false);
+              }, 7000);
+            } else {
+              $('#' + formID + ' button').prop('disabled', false);
+            }
+            $('#' + formID + ' button').text(butt_text);
+            console.log(butt_text);
+          }
+        }
+      });
+    });
+
+    return false;
+  });
+</script>
+
+</html>

@@ -1,0 +1,280 @@
+.popup_content_form .submit {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  text-shadow: 0px 1px 2px rgba(27, 28, 32, 0.29);
+  background: linear-gradient(90deg, #fa7727 0%, rgba(250, 209, 38, 0.99608) 100%);
+  background: -ms-linear-gradient(90deg, #fa7727 0%, rgba(250, 209, 38, 0.99608) 100%);
+  border-radius: 40px;
+  padding: 25px 35px;
+  box-shadow: 0 15px 15px -12px #fa7727;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Avenir Next Cyr";
+  font-size: 16px;
+  font-family: "Avenir Next Cyr";
+  font-weight: 900;
+  display: flex;
+  z-index: 99999;
+}
+
+.b-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 999999;
+  font-family: "PT Sans Caption", sans-serif;
+}
+
+#popup7 {
+  overflow: scroll;
+}
+
+.b-popup .b-popup-content {
+  padding: 15px;
+}
+
+.b-popup-content {
+  max-width: 750px;
+}
+
+.exit {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.popup_content_button {
+  background-color: #3cb07a;
+  padding: 70px 13%;
+  position: relative;
+}
+@media only screen and (max-width: 450px) {
+  .popup_content_button {
+    padding: 40px 4%;
+  }
+}
+.popup_content_button .popup_tittle p {
+  font-size: calc(22px + 14 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: white;
+  text-align: center;
+  font-weight: 900;
+}
+.popup_content_button .social_popup {
+  display: flex;
+  margin-top: 40px;
+  width: 100%;
+  justify-content: center;
+}
+.popup_content_button .social_popup a {
+  display: flex;
+  place-content: center;
+  place-items: center;
+  text-decoration: none;
+  width: 48%;
+  height: 65px;
+  border-radius: 55px;
+  font-size: calc(14px + 2 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  font-weight: 900;
+  color: white;
+  text-align: center;
+}
+.popup_content_button .social_popup a p {
+  margin-left: 10px;
+}
+.popup_content_button .social_popup a:nth-of-type(1) {
+  text-shadow: 0px 1px 2px rgba(27, 28, 32, 0.29);
+  border-width: 2px;
+  border-style: solid;
+  border-color: #47509a;
+  background-image: linear-gradient(90deg, #47509a 0%, #6771e6 100%);
+  background-image: -ms-linear-gradient(90deg, #47509a 0%, #6771e6 100%);
+  box-shadow: 0 15px 15px -12px #47509a;
+  margin-right: 4%;
+}
+.popup_content_button .social_popup a:nth-of-type(2) {
+  text-shadow: 0px 1px 2px rgba(27, 28, 32, 0.29);
+  border-width: 2px;
+  border-style: solid;
+  border-color: #0182dc;
+  background-image: linear-gradient(90deg, #015eea 0%, #00c0fa 100%);
+  background-image: -ms-linear-gradient(90deg, #015eea 0%, #00c0fa 100%);
+  box-shadow: 0 15px 15px -12px #015eea;
+}
+.popup_content_button .no_mes {
+  font-size: calc(16px + 2 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: white;
+  font-weight: 500;
+  display: flex;
+  place-content: center;
+  margin-top: 50px;
+}
+
+.popup_content_form {
+  background-color: #3cb07a;
+  padding: 70px 10%;
+  position: relative;
+}
+@media only screen and (max-width: 1400px) {
+  .popup_content_form {
+    padding: 40px 4%;
+  }
+}
+.popup_content_form .exit {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.popup_content_form .popup_content_form_tittle {
+  font-size: calc(22px + 14 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: white;
+  font-weight: 900;
+  text-align: center;
+}
+.popup_content_form .popup_content_form_tittle2 {
+  font-size: calc(16px + 4 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+@media only screen and (max-width: 1400px) {
+  .popup_content_form .popup_content_form_tittle2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+.popup_content_form .submit {
+  width: 70%;
+  text-align: center;
+  display: flex;
+  place-self: center;
+  place-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  height: 70px;
+  font-size: calc(14px + 2 * ((100vw - 320px) / 1600));
+  cursor: pointer;
+}
+@media only screen and (max-width: 1400px) {
+  .popup_content_form .submit {
+    height: 50px;
+  }
+}
+.popup_content_form form p {
+  padding-left: 5%;
+  font-size: calc(14px + 2 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: white;
+  text-align: left;
+  font-weight: 500;
+}
+.popup_content_form form input, .popup_content_form form select {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 70px;
+  border-radius: 50px;
+  border: 0px solid;
+  padding-left: 5%;
+  font-size: calc(14px + 2 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: #181818;
+  line-height: 2.5;
+  text-align: left;
+}
+@media only screen and (max-width: 1400px) {
+  .popup_content_form form input, .popup_content_form form select {
+    height: 50px;
+  }
+}
+@media only screen and (max-width: 1400px) and (max-width: 1400px) {
+  .popup_content_form form input, .popup_content_form form select {
+    margin: 5px 0;
+  }
+}
+.popup_content_form form select {
+  font-weight: 900;
+  color: #2cb080;
+  background: url("../img/popup/select.png") no-repeat right white;
+  -webkit-appearance: none;
+  background-position-x: right;
+  background-origin: content-box;
+  padding-right: 3%;
+}
+
+.field__wrapper {
+  width: 100%;
+  position: relative;
+  margin: 10px 0;
+  text-align: center;
+}
+@media only screen and (max-width: 1400px) {
+  .field__wrapper {
+    margin: 5px 0;
+  }
+}
+
+.field__file {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+.field__file-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.field__file-fake {
+  background-color: white;
+  border-radius: 50px;
+  height: 70px;
+  width: calc(100% - 130px);
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  border-radius: 50px;
+  border-right: none;
+  width: 100%;
+  font-size: calc(14px + 2 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: #3cb07a;
+  font-weight: 900;
+}
+@media only screen and (max-width: 1400px) {
+  .field__file-fake {
+    height: 50px;
+  }
+}
+
+.field__file-button {
+  right: 5%;
+  width: 21px;
+  height: 21px;
+  background-image: url("../img/popup/download.png");
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+}

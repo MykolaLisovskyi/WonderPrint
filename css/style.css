@@ -1,0 +1,1638 @@
+a:active, a:focus {
+  outline: none;
+}
+
+input, textarea {
+  outline: none;
+}
+
+input:active, textarea:active {
+  outline: none;
+}
+
+:focus {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+textarea {
+  resize: horizontal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body .content .block8 .block8_content .block8_info a, body .content .block6 .block6_content .block6_pdf .block6_pdf_left a, body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemLeft a, body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemRight a, body .content .block4 .block4_content .block4_content_button, body .content .block3 .block3_content .block3_button, body .content .block2 .block2_info a, body .content .block2 .block2_mobile_button a, body header .block1_fon .block1_content .block1_content_center .block1_content_center_button a:nth-of-type(2) {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  text-shadow: 0px 1px 2px rgba(27, 28, 32, 0.29);
+  background: linear-gradient(90deg, #fa7727 0%, rgba(250, 209, 38, 0.99608) 100%);
+  background: -ms-linear-gradient(90deg, #fa7727 0%, rgba(250, 209, 38, 0.99608) 100%);
+  border-radius: 40px;
+  padding: 25px 35px;
+  box-shadow: 0 15px 15px -12px #fa7727;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Avenir Next Cyr";
+  font-size: 16px;
+  font-family: "Avenir Next Cyr";
+  font-weight: 900;
+  display: flex;
+  z-index: 99999;
+}
+
+body header .block1_fon {
+  background-image: url("../img/block1_fon.png");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+body header .block1_fon .block1_content {
+  padding-top: 25px;
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 200px;
+}
+@media only screen and (max-width: 1200px) {
+  body header .block1_fon .block1_content {
+    max-width: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body header .block1_fon .block1_content {
+    max-width: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  body header .block1_fon .block1_content {
+    max-width: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+body header .block1_fon .block1_content .block1_content_header {
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+}
+@media only screen and (max-width: 410px) {
+  body header .block1_fon .block1_content .block1_content_header {
+    place-items: flex-end;
+  }
+}
+@media only screen and (max-width: 650px) {
+  body header .block1_fon .block1_content .block1_content_header .logo img {
+    width: 130px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  body header .block1_fon .block1_content .block1_content_header .logo img {
+    width: 80px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  body header .block1_fon .block1_content .block1_content_header .logo img {
+    width: 60px;
+  }
+}
+@media only screen and (max-width: 470px) {
+  body header .block1_fon .block1_content .block1_content_header .social a {
+    width: 20px;
+  }
+}
+body header .block1_fon .block1_content .block1_content_header .social a:not(:first-of-type) {
+  margin-left: 20px;
+}
+@media only screen and (max-width: 650px) {
+  body header .block1_fon .block1_content .block1_content_header .social a:not(:first-of-type) {
+    margin-left: 5px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  body header .block1_fon .block1_content .block1_content_header .social a:not(:first-of-type) {
+    margin-left: 2px;
+  }
+}
+body header .block1_fon .block1_content .block1_content_header .phone {
+  display: flex;
+  place-items: center;
+}
+@media only screen and (max-width: 470px) {
+  body header .block1_fon .block1_content .block1_content_header .phone img {
+    width: 20px;
+  }
+}
+body header .block1_fon .block1_content .block1_content_header .phone div {
+  padding-left: 10px;
+  display: flex;
+  flex-flow: column;
+}
+@media only screen and (max-width: 360px) {
+  body header .block1_fon .block1_content .block1_content_header .phone div {
+    padding-left: 0px;
+  }
+}
+body header .block1_fon .block1_content .block1_content_header .phone div a {
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: white;
+  line-height: 1.5;
+  text-decoration: none;
+}
+@media only screen and (max-width: 650px) {
+  body header .block1_fon .block1_content .block1_content_header .phone div a {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 470px) {
+  body header .block1_fon .block1_content .block1_content_header .phone div a {
+    font-size: 13px;
+  }
+}
+body header .block1_fon .block1_content .block1_content_center {
+  display: flex;
+  flex-flow: column;
+  position: relative;
+}
+body header .block1_fon .block1_content .block1_content_center .item_cloth {
+  position: absolute;
+  right: -20px;
+  bottom: 0px;
+}
+@media only screen and (max-width: 1200px) {
+  body header .block1_fon .block1_content .block1_content_center .item_cloth {
+    display: none;
+  }
+}
+body header .block1_fon .block1_content .block1_content_center h1 {
+  margin-top: 80px;
+  font-size: calc(24px + 34 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: white;
+  text-transform: uppercase;
+  line-height: 1.096;
+  font-weight: 600;
+  width: 60%;
+}
+@media only screen and (max-width: 1670px) {
+  body header .block1_fon .block1_content .block1_content_center h1 {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  body header .block1_fon .block1_content .block1_content_center h1 {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  body header .block1_fon .block1_content .block1_content_center h1 {
+    margin-top: 40px;
+  }
+}
+body header .block1_fon .block1_content .block1_content_center .item_cloth_mobile {
+  display: none;
+}
+@media only screen and (max-width: 800px) {
+  body header .block1_fon .block1_content .block1_content_center .item_cloth_mobile {
+    margin-top: 15px;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body header .block1_fon .block1_content .block1_content_center .item_cloth_mobile {
+    width: 70%;
+  }
+}
+body header .block1_fon .block1_content .block1_content_center p:nth-of-type(1) {
+  margin-top: 70px;
+  font-size: calc(16px + 4 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: #3cb07a;
+  font-weight: bold;
+}
+@media only screen and (max-width: 800px) {
+  body header .block1_fon .block1_content .block1_content_center p:nth-of-type(1) {
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body header .block1_fon .block1_content .block1_content_center p:nth-of-type(1) {
+    margin-top: 30px;
+  }
+}
+body header .block1_fon .block1_content .block1_content_center p:nth-of-type(2) {
+  font-size: calc(22px + 4 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: white;
+  font-weight: 600;
+}
+body header .block1_fon .block1_content .block1_content_center p:nth-of-type(2) span {
+  color: #97ae97;
+}
+body header .block1_fon .block1_content .block1_content_center .block1_content_center_line {
+  margin-top: 45px;
+  background-image: url("../img/block1_line.png");
+  height: 125px;
+  width: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  place-content: center;
+  flex-flow: column;
+}
+@media only screen and (max-width: 530px) {
+  body header .block1_fon .block1_content .block1_content_center .block1_content_center_line {
+    background-image: none;
+    height: auto;
+    margin-top: 20px;
+  }
+}
+body header .block1_fon .block1_content .block1_content_center .block1_content_center_line p {
+  margin-top: 0px;
+  margin-left: 130px;
+}
+@media only screen and (max-width: 530px) {
+  body header .block1_fon .block1_content .block1_content_center .block1_content_center_line p {
+    margin-left: 0px;
+    text-align: right;
+  }
+}
+body header .block1_fon .block1_content .block1_content_center .block1_content_center_line p:nth-of-type(1) {
+  font-size: calc(18px + 6 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: #3cb07a;
+  font-weight: 500;
+  line-height: 1;
+}
+body header .block1_fon .block1_content .block1_content_center .block1_content_center_line p:nth-of-type(2) {
+  padding-left: 270px;
+  font-size: calc(20px + 10 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: white;
+  font-weight: 600;
+  line-height: 1;
+}
+@media only screen and (max-width: 600px) {
+  body header .block1_fon .block1_content .block1_content_center .block1_content_center_line p:nth-of-type(2) {
+    padding-left: 0px;
+    text-align: right;
+  }
+}
+body header .block1_fon .block1_content .block1_content_center .block1_content_center_line p:nth-of-type(2) span {
+  font-size: calc(30px + 15 * ((100vw - 320px) / 1600));
+  font-weight: 900;
+  font-family: "Avenir Next Cyr";
+  color: white;
+  text-shadow: 0px 3px 7px rgba(27, 28, 32, 0.29);
+  line-height: 1;
+}
+body header .block1_fon .block1_content .block1_content_center .block1_content_center_button {
+  display: flex;
+  padding-top: 60px;
+}
+@media only screen and (max-width: 630px) {
+  body header .block1_fon .block1_content .block1_content_center .block1_content_center_button {
+    flex-flow: column;
+    place-items: center;
+    padding-top: 20px;
+  }
+}
+body header .block1_fon .block1_content .block1_content_center .block1_content_center_button a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Avenir Next Cyr";
+  font-weight: 900;
+}
+body header .block1_fon .block1_content .block1_content_center .block1_content_center_button a:nth-of-type(1) {
+  color: #f9cd26;
+  text-align: center;
+  border-width: 1px;
+  border-color: #f9cd26;
+  border-style: solid;
+  background-image: -ms-linear-gradient(90deg, #ff544f 0%, rgba(250, 209, 38, 0.99608) 100%);
+  border-radius: 40px;
+  margin-right: 30px;
+  padding: 25px 35px;
+}
+@media only screen and (max-width: 630px) {
+  body header .block1_fon .block1_content .block1_content_center .block1_content_center_button a:nth-of-type(1) {
+    margin-right: 0px;
+    margin-bottom: 10px;
+    padding: 20px 30px;
+  }
+}
+@media only screen and (max-width: 630px) {
+  body header .block1_fon .block1_content .block1_content_center .block1_content_center_button a:nth-of-type(2) {
+    padding: 20px 30px;
+  }
+}
+body .content {
+  display: flex;
+  flex-flow: column;
+}
+body .content .block2 {
+  display: flex;
+  height: 320px;
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  position: relative;
+  top: -40px;
+}
+@media only screen and (max-width: 900px) {
+  body .content .block2 {
+    flex-flow: column-reverse;
+    top: -60px;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  body .content .block2 {
+    top: -100px;
+  }
+}
+body .content .block2 .block2_mobile_button {
+  display: none;
+}
+body .content .block2 .block2_mobile_button a {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+@media only screen and (max-width: 900px) {
+  body .content .block2 .block2_mobile_button {
+    display: block;
+  }
+}
+body .content .block2 .block2_ChatBot {
+  background-color: #3cb07a;
+  height: 790px;
+  width: 390px;
+  position: relative;
+  border-radius: 40px;
+  padding: 80px 0px;
+  z-index: 50;
+}
+@media only screen and (max-width: 900px) {
+  body .content .block2 .block2_ChatBot {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 500px) {
+  body .content .block2 .block2_ChatBot {
+    width: 295px;
+    padding: 50px 0px;
+    padding-bottom: 10px;
+    height: 100%;
+  }
+}
+body .content .block2 .block2_ChatBot h2 {
+  margin-left: 40px;
+  font-size: 30px;
+  font-family: "Avenir Next Cyr";
+  color: white;
+  text-align: left;
+}
+@media only screen and (max-width: 500px) {
+  body .content .block2 .block2_ChatBot h2 {
+    margin-left: 20px;
+  }
+}
+body .content .block2 .block2_ChatBot .block2_telephone {
+  position: absolute;
+  top: -10px;
+  left: -15px;
+  bottom: 0;
+  z-index: 50;
+}
+@media only screen and (max-width: 500px) {
+  body .content .block2 .block2_ChatBot .block2_telephone {
+    width: 320px;
+  }
+}
+body .content .block2 .block2_ChatBot .block2_ChatBot_left {
+  display: flex;
+  padding: 30px 40px;
+}
+@media only screen and (max-width: 500px) {
+  body .content .block2 .block2_ChatBot .block2_ChatBot_left {
+    padding: 10px 20px;
+  }
+}
+body .content .block2 .block2_ChatBot .block2_ChatBot_left .block2_ChatBot_img {
+  margin-right: 15px;
+}
+body .content .block2 .block2_ChatBot .block2_ChatBot_right {
+  display: flex;
+  flex-flow: row-reverse;
+  padding: 30px 40px;
+  background-color: #34a571;
+}
+@media only screen and (max-width: 500px) {
+  body .content .block2 .block2_ChatBot .block2_ChatBot_right {
+    padding: 10px 20px;
+  }
+}
+body .content .block2 .block2_ChatBot .block2_ChatBot_right .block2_ChatBot_img {
+  margin-left: 15px;
+}
+body .content .block2 .block2_ChatBot .block2_ChatBot_info p:nth-of-type(1) {
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Avenir Next Cyr";
+  color: white;
+  text-align: left;
+  margin-bottom: 20px;
+}
+body .content .block2 .block2_ChatBot .block2_ChatBot_info p:nth-of-type(2) {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Avenir Next Cyr";
+  color: white;
+  line-height: 1.125;
+}
+body .content .block2 .block2_info {
+  margin-left: 80px;
+  margin-top: 100px;
+  width: 43%;
+}
+@media only screen and (max-width: 900px) {
+  body .content .block2 .block2_info {
+    margin-left: 40px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+  }
+}
+body .content .block2 .block2_info p {
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 900px) {
+  body .content .block2 .block2_info p {
+    margin-bottom: 30px;
+  }
+}
+body .content .block2 .block2_info p:nth-of-type(1) {
+  font-size: calc(28px + 20 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: #181818;
+  font-weight: 900;
+  line-height: 1.3;
+}
+body .content .block2 .block2_info p:nth-of-type(1) span {
+  color: #3cb07a;
+}
+body .content .block2 .block2_info p:nth-of-type(2) {
+  font-size: 20px;
+  font-family: "Avenir Next Cyr";
+  color: #6d7b6d;
+  font-size: 600;
+}
+body .content .block2 .block2_info a {
+  position: absolute;
+  z-index: 88888;
+}
+@media only screen and (max-width: 900px) {
+  body .content .block2 .block2_info a {
+    display: none;
+  }
+}
+body .content .block3 {
+  z-index: 55;
+  display: flex;
+  flex-flow: column;
+  background-image: url("../img/block3/block3_fon.png");
+  width: 100%;
+  height: auto;
+  padding-bottom: 200px;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 1500px) {
+  body .content .block3 {
+    background-position-x: center;
+  }
+}
+@media only screen and (max-width: 900px) {
+  body .content .block3 {
+    background-position-y: -300px;
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  body .content .block3 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body .content .block3 {
+    max-width: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  body .content .block3 {
+    max-width: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+body .content .block3 .block3_content {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: column;
+  place-items: center;
+}
+@media only screen and (max-width: 1250px) {
+  body .content .block3 .block3_content {
+    max-width: 100%;
+  }
+}
+body .content .block3 .block3_content .block3_content_tittle {
+  margin-top: 480px;
+  margin-bottom: 40px;
+  font-size: 48px;
+  font-size: calc(28px + 20 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: white;
+  line-height: 1.083;
+  font-weight: 900;
+}
+@media only screen and (max-width: 900px) {
+  body .content .block3 .block3_content .block3_content_tittle {
+    margin-top: 100px;
+  }
+}
+body .content .block3 .block3_content .block3_content_tittle span {
+  color: #3cb07a;
+}
+body .content .block3 .block3_content .block3_button {
+  margin-top: 50px;
+}
+@media only screen and (max-width: 900px) {
+  body .content .block3 .block3_content .block3_button {
+    margin-top: 0px;
+  }
+}
+body .content .block4 {
+  height: 430px;
+}
+@media only screen and (max-width: 1200px) {
+  body .content .block4 {
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body .content .block4 {
+    max-width: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  body .content .block4 {
+    max-width: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+body .content .block4 .block4_content {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: column;
+}
+@media only screen and (max-width: 1200px) {
+  body .content .block4 .block4_content {
+    max-width: 100%;
+    justify-content: space-between;
+    padding-top: 40px;
+  }
+}
+body .content .block4 .block4_content p:nth-of-type(1), body .content .block4 .block4_content p:nth-of-type(2) {
+  font-size: calc(28px + 20 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: #181818;
+  line-height: 1.083;
+  font-weight: 900;
+  text-align: left;
+}
+body .content .block4 .block4_content p:nth-of-type(3) {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: calc(18px + 2 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: #6d7b6d;
+  line-height: 1.3;
+}
+@media only screen and (max-width: 1250px) {
+  body .content .block4 .block4_content p:nth-of-type(3) {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}
+body .content .block4 .block4_content .block4_content_card {
+  display: flex;
+  place-items: baseline;
+}
+@media only screen and (max-width: 750px) {
+  body .content .block4 .block4_content .block4_content_card {
+    flex-flow: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+body .content .block4 .block4_content .block4_content_card .block4_content_card_item {
+  position: relative;
+}
+body .content .block4 .block4_content .block4_content_card .block4_content_card_item:not(:last-child) {
+  margin-right: 20px;
+}
+@media only screen and (max-width: 1250px) {
+  body .content .block4 .block4_content .block4_content_card .block4_content_card_item img:nth-of-type(1) {
+    width: 100%;
+  }
+}
+body .content .block4 .block4_content .block4_content_card .block4_content_card_item img:nth-of-type(2) {
+  position: absolute;
+  right: -45px;
+  bottom: 27%;
+}
+@media only screen and (max-width: 750px) {
+  body .content .block4 .block4_content .block4_content_card .block4_content_card_item img:nth-of-type(2) {
+    left: 0px;
+    bottom: 0px;
+    right: auto;
+    transform: rotate(90deg);
+  }
+}
+body .content .block4 .block4_content .block4_content_card .block4_content_card_item p {
+  font-size: 26px;
+  font-family: "Oswald", sans-serif;
+  color: #181818;
+  line-height: 1.846;
+  font-weight: 900;
+  position: absolute;
+  right: 0;
+  bottom: 40px;
+}
+@media only screen and (max-width: 1250px) {
+  body .content .block4 .block4_content .block4_content_card .block4_content_card_item p {
+    bottom: 0px;
+  }
+}
+body .content .block4 .block4_content .block4_content_button {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-width: 1000px) {
+  body .content .block4 .block4_content .block4_content_button {
+    margin-top: 20px;
+  }
+}
+body .content .block5 {
+  display: flex;
+  flex-flow: column;
+  background-image: url("../img/block5/fon.png");
+  background-size: 100% 100%;
+  width: 100%;
+  padding-bottom: 300px;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 1160px) {
+  body .content .block5 {
+    display: flex;
+    flex-flow: column;
+    background-image: url(../img/block5/fon.png);
+    background-size: cover;
+    width: 100%;
+    background-position-x: center;
+    padding-bottom: 300px;
+    height: 100%;
+    position: relative;
+    top: -300px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  body .content .block5 {
+    padding-bottom: 250px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  body .content .block5 {
+    padding-bottom: 200px;
+  }
+}
+body .content .block5 .block5_content {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: column;
+  place-items: center;
+}
+@media only screen and (max-width: 1200px) {
+  body .content .block5 .block5_content {
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body .content .block5 .block5_content {
+    max-width: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  body .content .block5 .block5_content {
+    max-width: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+body .content .block5 .block5_content .green_text {
+  color: #97ae97;
+  font-weight: 900;
+}
+body .content .block5 .block5_content .heavy {
+  font-weight: 900;
+}
+body .content .block5 .block5_content .block5_content_tittle {
+  margin-top: 480px;
+  font-size: calc(28px + 20 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  font-weight: 900;
+  color: white;
+  margin-bottom: 75px;
+}
+@media only screen and (max-width: 800px) {
+  body .content .block5 .block5_content .block5_content_tittle {
+    padding-top: 100px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  body .content .block5 .block5_content .block5_content_tittle {
+    padding-top: 50px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  body .content .block5 .block5_content .block5_content_tittle {
+    padding-top: 0px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  body .content .block5 .block5_content .block5_content_tittle {
+    margin-bottom: 30px;
+  }
+}
+body .content .block5 .block5_content .block5_content_cart {
+  display: flex;
+  flex-flow: column;
+}
+body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemLeft, body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemRight {
+  place-items: center;
+}
+body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemLeft .info, body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemRight .info {
+  width: 47%;
+}
+@media only screen and (max-width: 1200px) {
+  body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemLeft .info, body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemRight .info {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemLeft .info, body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemRight .info {
+    width: 100%;
+  }
+}
+body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemLeft .image, body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemRight .image {
+  width: 53%;
+}
+@media only screen and (max-width: 1200px) {
+  body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemLeft .image, body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemRight .image {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemLeft .image, body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemRight .image {
+    width: 100%;
+  }
+}
+body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemLeft .image img, body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemRight .image img {
+  border-bottom: 6px solid #3cb07a;
+  width: 100%;
+}
+body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemLeft a, body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemRight a {
+  margin-bottom: 50px;
+}
+body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemLeft p, body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemRight p {
+  font-size: calc(14px + 4 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: white;
+  line-height: 1.333;
+  width: 80%;
+  margin-bottom: 35px;
+}
+@media only screen and (max-width: 1100px) {
+  body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemLeft p, body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemRight p {
+    margin-bottom: 20px;
+  }
+}
+body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemLeft p:nth-of-type(1), body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemRight p:nth-of-type(1) {
+  font-size: calc(20px + 6 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: white;
+  line-height: 0.923;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+@media only screen and (max-width: 1100px) {
+  body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemLeft p:nth-of-type(1), body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemRight p:nth-of-type(1) {
+    margin-bottom: 20px;
+  }
+}
+body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemLeft {
+  display: flex;
+}
+@media only screen and (max-width: 800px) {
+  body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemLeft {
+    flex-flow: column;
+  }
+}
+body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemLeft p {
+  margin-left: 70px;
+}
+@media only screen and (max-width: 800px) {
+  body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemLeft p {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}
+body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemRight {
+  display: flex;
+  flex-flow: row-reverse;
+}
+@media only screen and (max-width: 800px) {
+  body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemRight {
+    flex-flow: column;
+  }
+}
+body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemRight p:nth-of-type(1) {
+  margin-top: 40px;
+}
+@media only screen and (max-width: 800px) {
+  body .content .block5 .block5_content .block5_content_cart .block5_content_cart_itemRight p:nth-of-type(1) {
+    margin-top: 20px;
+  }
+}
+body .content .block6 {
+  display: flex;
+  flex-flow: column;
+}
+body .content .block6 .block6_content {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: column;
+  place-items: center;
+  position: relative;
+  top: -100px;
+}
+@media only screen and (max-width: 1200px) {
+  body .content .block6 .block6_content {
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 1160px) {
+  body .content .block6 .block6_content {
+    top: -400px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  body .content .block6 .block6_content {
+    top: -450px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  body .content .block6 .block6_content {
+    top: -410px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body .content .block6 .block6_content {
+    max-width: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  body .content .block6 .block6_content {
+    max-width: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+body .content .block6 .block6_content .block6_instagram {
+  margin-right: auto;
+}
+@media only screen and (max-width: 600px) {
+  body .content .block6 .block6_content .block6_instagram {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  body .content .block6 .block6_content .block6_instagram {
+    width: 220px;
+  }
+}
+body .content .block6 .block6_content .block6_pdf {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 800px) {
+  body .content .block6 .block6_content .block6_pdf {
+    flex-flow: column;
+  }
+}
+@media only screen and (max-width: 800px) {
+  body .content .block6 .block6_content .block6_pdf .block6_pdf_right {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media only screen and (max-width: 800px) and (max-width: 840px) {
+  body .content .block6 .block6_content .block6_pdf .block6_pdf_right img {
+    width: 300px;
+  }
+}
+body .content .block6 .block6_content .block6_pdf .block6_pdf_left {
+  z-index: 777777;
+  place-self: center;
+  width: 60%;
+}
+@media only screen and (max-width: 800px) {
+  body .content .block6 .block6_content .block6_pdf .block6_pdf_left {
+    width: 90%;
+  }
+}
+body .content .block6 .block6_content .block6_pdf .block6_pdf_left a {
+  margin-top: 35px;
+  padding-left: 75px;
+  padding-right: 75px;
+  z-index: 777777;
+}
+@media only screen and (max-width: 800px) {
+  body .content .block6 .block6_content .block6_pdf .block6_pdf_left a {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+body .content .block6 .block6_content .block6_pdf .block6_pdf_left p:nth-of-type(1) {
+  font-size: calc(28px + 20 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: #181818;
+  line-height: 1;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 800px) {
+  body .content .block6 .block6_content .block6_pdf .block6_pdf_left p:nth-of-type(1) {
+    margin-bottom: 30px;
+  }
+}
+body .content .block6 .block6_content .block6_pdf .block6_pdf_left p:nth-of-type(2) {
+  font-size: calc(18px + 2 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: #6d7b6d;
+  line-height: 1.3;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+@media only screen and (max-width: 800px) {
+  body .content .block6 .block6_content .block6_pdf .block6_pdf_left p:nth-of-type(2) {
+    margin-bottom: 25px;
+  }
+}
+body .content .block6 .block6_content .block6_pdf .block6_pdf_left p:nth-of-type(3) {
+  font-size: calc(16px + 2 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: #169761;
+  font-weight: 600;
+}
+body .content .block6 .block6_content .block6_pdf .block6_pdf_left p:nth-of-type(4) {
+  font-size: calc(20px + 7 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: #181818;
+  font-weight: 900;
+  margin-bottom: 35px;
+}
+@media only screen and (max-width: 800px) {
+  body .content .block6 .block6_content .block6_pdf .block6_pdf_left p:nth-of-type(4) {
+    margin-bottom: 15px;
+  }
+}
+body .content .block6 .block6_content .block6_pdf .block6_pdf_left p:nth-of-type(5) {
+  font-size: calc(16px + 2 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: #6d7b6d;
+  font-weight: 600;
+}
+body .content .block7 {
+  display: flex;
+  flex-flow: column;
+  background-image: url("../img/block3/block3_fon.png");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 300px;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -300px;
+  z-index: 55555;
+}
+@media only screen and (max-width: 1160px) {
+  body .content .block7 {
+    display: flex;
+    flex-flow: column;
+    background-size: 100% 100%;
+    width: 100%;
+    background-position-x: center;
+    padding-bottom: 300px;
+    height: 100%;
+    position: relative;
+    top: -450px;
+  }
+}
+@media only screen and (max-width: 880px) {
+  body .content .block7 {
+    background-size: cover;
+    top: -700px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  body .content .block7 {
+    padding-bottom: 250px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  body .content .block7 {
+    padding-bottom: 200px;
+  }
+}
+body .content .block7 .block7_content {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: column;
+  place-items: center;
+  width: 100%;
+  margin-top: 400px;
+}
+@media only screen and (max-width: 1200px) {
+  body .content .block7 .block7_content {
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 1160px) {
+  body .content .block7 .block7_content {
+    margin-top: 300px;
+  }
+}
+@media only screen and (max-width: 880px) {
+  body .content .block7 .block7_content {
+    margin-top: 550px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body .content .block7 .block7_content {
+    max-width: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  body .content .block7 .block7_content {
+    max-width: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+body .content .block7 .block7_content .block7_content_tittle {
+  margin-right: auto;
+  font-size: calc(28px + 20 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: white;
+  line-height: 1.083;
+  font-weight: 900;
+}
+@media only screen and (max-width: 880px) {
+  body .content .block7 .block7_content .block7_content_tittle {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+body .content .block7 .block7_content .block7_content_card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  width: 100%;
+}
+@media only screen and (max-width: 880px) {
+  body .content .block7 .block7_content .block7_content_card {
+    margin-top: 35px;
+  }
+}
+@media only screen and (max-width: 880px) {
+  body .content .block7 .block7_content .block7_content_card {
+    flex-flow: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+body .content .block7 .block7_content .block7_content_card .block7_content_card_item {
+  position: relative;
+  width: 25%;
+}
+@media only screen and (max-width: 880px) {
+  body .content .block7 .block7_content .block7_content_card .block7_content_card_item {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 880px) {
+  body .content .block7 .block7_content .block7_content_card .block7_content_card_item {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body .content .block7 .block7_content .block7_content_card .block7_content_card_item {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  body .content .block7 .block7_content .block7_content_card .block7_content_card_item {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  body .content .block7 .block7_content .block7_content_card .block7_content_card_item {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  body .content .block7 .block7_content .block7_content_card .block7_content_card_item {
+    width: 80%;
+  }
+}
+body .content .block7 .block7_content .block7_content_card .block7_content_card_item img:nth-of-type(1) {
+  width: 100%;
+}
+body .content .block7 .block7_content .block7_content_card .block7_content_card_item img:nth-of-type(2) {
+  position: absolute;
+  right: -30px;
+  bottom: 0;
+}
+@media only screen and (max-width: 880px) {
+  body .content .block7 .block7_content .block7_content_card .block7_content_card_item img:nth-of-type(2) {
+    right: auto;
+    left: 0px;
+    bottom: 0;
+    transform: rotate(90deg);
+  }
+}
+body .content .block8 {
+  display: flex;
+  flex-flow: column;
+  z-index: 777777;
+}
+body .content .block8 .block8_content {
+  z-index: 777777;
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: column;
+  place-items: center;
+  position: relative;
+  top: -450px;
+  margin-bottom: -450px;
+}
+@media only screen and (max-width: 1200px) {
+  body .content .block8 .block8_content {
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 1160px) {
+  body .content .block8 .block8_content {
+    top: -600px;
+    margin-bottom: -600px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  body .content .block8 .block8_content {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 880px) {
+  body .content .block8 .block8_content {
+    top: -800px;
+    margin-bottom: -800px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body .content .block8 .block8_content {
+    max-width: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  body .content .block8 .block8_content {
+    max-width: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+body .content .block8 .block8_content .block6_instagram {
+  margin-right: auto;
+}
+@media only screen and (max-width: 600px) {
+  body .content .block8 .block8_content .block6_instagram {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  body .content .block8 .block8_content .block6_instagram {
+    width: 220px;
+  }
+}
+body .content .block8 .block8_content .block8_info {
+  z-index: 777777;
+  display: flex;
+  place-items: center;
+}
+@media only screen and (max-width: 1100px) {
+  body .content .block8 .block8_content .block8_info {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 720px) {
+  body .content .block8 .block8_content .block8_info {
+    flex-flow: column-reverse;
+  }
+}
+body .content .block8 .block8_content .block8_info .block8_info_left {
+  z-index: 88888;
+}
+@media only screen and (max-width: 1100px) {
+  body .content .block8 .block8_content .block8_info .block8_info_left {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 720px) {
+  body .content .block8 .block8_content .block8_info .block8_info_left {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  body .content .block8 .block8_content .block8_info .block8_info_right {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 1100px) and (max-width: 1100px) {
+  body .content .block8 .block8_content .block8_info .block8_info_right img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 720px) {
+  body .content .block8 .block8_content .block8_info .block8_info_right {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 630px) {
+  body .content .block8 .block8_content .block8_info .block8_info_right {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 530px) {
+  body .content .block8 .block8_content .block8_info .block8_info_right {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 430px) {
+  body .content .block8 .block8_content .block8_info .block8_info_right {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 380px) {
+  body .content .block8 .block8_content .block8_info .block8_info_right {
+    width: 90%;
+  }
+}
+body .content .block8 .block8_content .block8_info p:nth-child(1) {
+  font-size: calc(28px + 20 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: #181818;
+  margin-bottom: 50px;
+  font-weight: 900;
+}
+@media only screen and (max-width: 950px) {
+  body .content .block8 .block8_content .block8_info p:nth-child(1) {
+    margin-bottom: 20px;
+  }
+}
+body .content .block8 .block8_content .block8_info p:nth-of-type(2) {
+  font-size: calc(14px + 4 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: #169761;
+  font-weight: 900;
+  margin-top: 40px;
+  line-height: 1;
+}
+@media only screen and (max-width: 950px) {
+  body .content .block8 .block8_content .block8_info p:nth-of-type(2) {
+    margin-top: 15px;
+  }
+}
+body .content .block8 .block8_content .block8_info p:nth-of-type(3) {
+  font-size: calc(22px + 5 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: #181818;
+  font-weight: 900;
+  margin-top: 10px;
+  line-height: 1;
+}
+body .content .block8 .block8_content .block8_info p:nth-of-type(4) {
+  font-size: calc(14px + 4 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: #6d7b6d;
+  font-weight: 500;
+  margin-top: 30px;
+}
+@media only screen and (max-width: 950px) {
+  body .content .block8 .block8_content .block8_info p:nth-of-type(4) {
+    margin-top: 15px;
+  }
+}
+body .content .block8 .block8_content .block8_info .block8_info_left_check {
+  display: flex;
+  place-items: center;
+}
+body .content .block8 .block8_content .block8_info .block8_info_left_check p {
+  font-size: calc(16px + 2 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: #6d7b6d;
+  font-weight: 500;
+}
+body .content .block8 .block8_content .block8_info .block8_info_left_check img {
+  margin-right: 30px;
+}
+body .content .block8 .block8_content .block8_info .block8_info_left_check:not(:last-child) {
+  margin-bottom: 15px;
+}
+@media only screen and (max-width: 950px) {
+  body .content .block8 .block8_content .block8_info .block8_info_left_check:not(:last-child) {
+    margin-top: 10px;
+  }
+}
+body .content .block8 .block8_content .block8_info a {
+  margin-top: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+@media only screen and (max-width: 950px) {
+  body .content .block8 .block8_content .block8_info a {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  body .content .block8 .block8_content .block8_info a {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+body .content .block9 {
+  z-index: 55556;
+  background-image: url("../img/block9/fon.png");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  top: -250px;
+  margin-bottom: -300px;
+  position: relative;
+}
+@media only screen and (max-width: 1400px) {
+  body .content .block9 {
+    background-position-x: center;
+  }
+}
+@media only screen and (max-width: 820px) {
+  body .content .block9 {
+    top: -370px;
+    margin-bottom: -370px;
+  }
+}
+body .content .block9 .block9_content {
+  margin-top: 500px;
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 70px;
+  display: flex;
+}
+@media only screen and (max-width: 1200px) {
+  body .content .block9 .block9_content {
+    max-width: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media only screen and (max-width: 820px) {
+  body .content .block9 .block9_content {
+    flex-flow: column-reverse;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body .content .block9 .block9_content {
+    max-width: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  body .content .block9 .block9_content {
+    max-width: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+body .content .block9 .block9_content .block9_content_left {
+  width: 48%;
+  display: flex;
+  flex-flow: column;
+  place-self: center;
+}
+@media only screen and (max-width: 820px) {
+  body .content .block9 .block9_content .block9_content_left {
+    width: 90%;
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body .content .block9 .block9_content .block9_content_left {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body .content .block9 .block9_content .block9_content_left {
+    width: 98%;
+  }
+}
+body .content .block9 .block9_content .block9_content_left .block9_content_left_tittle {
+  font-size: calc(28px + 20 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: white;
+  line-height: 1;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+body .content .block9 .block9_content .block9_content_left .address {
+  display: flex;
+  place-items: center;
+  margin-bottom: 20px;
+}
+body .content .block9 .block9_content .block9_content_left .address p {
+  margin-left: 10px;
+  font-size: calc(16px + 4 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: #f7f5f6;
+  font-weight: 500;
+}
+body .content .block9 .block9_content .block9_content_left .phone {
+  display: flex;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 1100px) {
+  body .content .block9 .block9_content .block9_content_left .phone {
+    flex-flow: column;
+  }
+}
+@media only screen and (max-width: 820px) {
+  body .content .block9 .block9_content .block9_content_left .phone {
+    flex-flow: row;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body .content .block9 .block9_content .block9_content_left .phone {
+    flex-flow: column;
+  }
+}
+body .content .block9 .block9_content .block9_content_left .phone .phone_item {
+  display: flex;
+  place-items: center;
+}
+body .content .block9 .block9_content .block9_content_left .phone .phone_item:nth-of-type(1) {
+  margin-right: 50px;
+}
+@media only screen and (max-width: 1200px) {
+  body .content .block9 .block9_content .block9_content_left .phone .phone_item:nth-of-type(1) {
+    margin-right: 20px;
+  }
+}
+body .content .block9 .block9_content .block9_content_left .phone .phone_item a {
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: calc(22px + 8 * ((100vw - 320px) / 1600));
+  font-family: "Oswald";
+  color: white;
+  font-weight: 900;
+}
+body .content .block9 .block9_content .block9_content_left .social a:not(:last-child) {
+  margin-right: 30px;
+}
+body .content .block9 .block9_content .block9_content_left .social a img {
+  width: 35px;
+  height: 35px;
+}
+body .content .block9 .block9_content .block9_content_left .developer {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: calc(12px + 2 * ((100vw - 320px) / 1600));
+  font-family: "Avenir Next Cyr";
+  color: #f7f5f6;
+}
+body .content .block9 .block9_content .block9_content_left .signa {
+  width: 190px;
+}
+body .content .block9 .block9_content .block9_content_right {
+  width: 52%;
+}
+@media only screen and (max-width: 820px) {
+  body .content .block9 .block9_content .block9_content_right {
+    margin-top: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body .content .block9 .block9_content .block9_content_right {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body .content .block9 .block9_content .block9_content_right {
+    width: 98%;
+  }
+}
+body .content .block9 .block9_content .block9_content_right iframe {
+  width: 100%;
+  height: 450px;
+}
+@media only screen and (max-width: 480px) {
+  body .content .block9 .block9_content .block9_content_right iframe {
+    height: 380px;
+  }
+}
